@@ -34,10 +34,10 @@ Note: the initial Kaggle dataset was narrowed down to only four (4) states (IL, 
 ![Model Comparison](outputs/images/compare_models.png)
 
 ### Measuring the Final Model's Predictive Capabilities 
-![Model Comparison](outputs/images/final_model_rf.png)
+![Final Random Forest Model](outputs/images/final_model_rf.png)
 
 ### Predicting User Inputted Data
-![Model Comparison](outputs/images/user_data_price_prediction2.png)
+![User Input Price Prediction](outputs/images/user_data_price_prediction2.png)
 
 
 ## Inspiration for this project
