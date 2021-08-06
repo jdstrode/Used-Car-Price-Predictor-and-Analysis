@@ -1,0 +1,180 @@
+DS_store
+.DS_Store
+DS.store
+DS_Store
+.ipynb_checkpoints
+
+
+desktop.ini
+
+cars_cleaned.csv
+master_vehicles.csv
+cars_cleaned_sample_nofills.csv
+cars_data_over_time_sample.csv
+scraped_data_new.csv
+compare_models.csv
+create_models.csv
+dataset_for_modeling.csv
+final_model_rf.csv
+pycaret_setup.csv
+rf_model.csv
+unseen_predictions.csv
+user_input_prediction.csv
+Final_RF_Model_08-04-2021.pkl
+make_sample_data.ipynb
+pycaret.ipynb
+random_forest.ipynb
+random_forest_working.ipynb
+scraper__with_input.ipynb
+scraper_will.ipynb
+will_working_file.ipynb
+
+compare_models3.png 
+final_model_on_unseen.png
+final_model_on_unseen2.png
+random_forest_feat_import.png
+random_forest_models.png
+random_forest_models2.png
+random_forest_pred_err.png
+random_forest_residuals_plot.png
+rf_learning_curve.png
+unseen_predictions.png
+user_data_price_prediction.png
+user_data_price_prediction2.png
+wills_data_sample_model_analysis.png
+
+
+
+
+
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/

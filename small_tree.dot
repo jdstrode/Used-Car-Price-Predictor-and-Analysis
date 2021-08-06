@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="long <= 0.1\nmse = 78448184193128.6\nsamples = 9923\nvalue = 84786.5", fillcolor="#ffffff"] ;
+1 [label="long <= 0.1\nmse = 1.5624600904557908e+16\nsamples = 51\nvalue = 14254574.5", fillcolor="#fffdfc"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="lat <= 0.7\nmse = 111143213.2\nsamples = 49\nvalue = 9754.8", fillcolor="#ffffff"] ;
+1 -> 2 ;
+3 [label="mse = 55539884.1\nsamples = 41\nvalue = 6714.0", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="mse = 142284087.4\nsamples = 8\nvalue = 22569.6", fillcolor="#ffffff"] ;
+2 -> 4 ;
+5 [label="year <= 0.7\nmse = 1.97527877502648e+17\nsamples = 2\nvalue = 222228942.2", fillcolor="#fae6d7"] ;
+1 -> 5 ;
+6 [label="mse = 0.0\nsamples = 1\nvalue = 8400.0", fillcolor="#ffffff"] ;
+5 -> 6 ;
+7 [label="mse = 0.0\nsamples = 1\nvalue = 1111111111.0", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="year <= 0.9\nmse = 170840638.6\nsamples = 9872\nvalue = 14200.0", fillcolor="#ffffff"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="odometer <= 0.0\nmse = 97283344.8\nsamples = 7099\nvalue = 10445.6", fillcolor="#ffffff"] ;
+8 -> 9 ;
+10 [label="mse = 215774005.2\nsamples = 1485\nvalue = 16226.9", fillcolor="#ffffff"] ;
+9 -> 10 ;
+11 [label="mse = 54552246.5\nsamples = 5614\nvalue = 8909.3", fillcolor="#ffffff"] ;
+9 -> 11 ;
+12 [label="cylinders <= 0.6\nmse = 231154353.7\nsamples = 2773\nvalue = 23667.8", fillcolor="#ffffff"] ;
+8 -> 12 ;
+13 [label="mse = 99343635.3\nsamples = 1409\nvalue = 17121.5", fillcolor="#ffffff"] ;
+12 -> 13 ;
+14 [label="mse = 277318717.1\nsamples = 1364\nvalue = 30484.6", fillcolor="#ffffff"] ;
+12 -> 14 ;
+}

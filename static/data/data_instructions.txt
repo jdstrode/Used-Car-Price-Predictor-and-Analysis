@@ -1,0 +1,6 @@
+Instructions:
+
+1) Go here: https://www.kaggle.com/austinreese/craigslist-carstrucks-data
+2) Download the dataset, rename file "master_vehicles.csv", save in this folder (../static/data)
+3) Run Jupyter Lab file titled "data_cleaning.ipynb" to clean and sort data.
+	- Recommend running this through Google Collab for faster processing times.
