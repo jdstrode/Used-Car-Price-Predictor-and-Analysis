@@ -12,6 +12,9 @@ Out team has built a machine learning model to predict used car prices.  We util
 
 [View a Final Presentation of the Project](https://docs.google.com/presentation/d/16_Rtap44-j0j7Cy9LQtGQUKX3_1HHcAX5m7XczP146I/edit?usp=sharing)
 
+## Tools / Languages: 
+Python, Pandas, Pycaret, Scikit-Learn, Seaborn, Tableau, BeautifulSoup, Matplotlib, Jupyter Lab, Visual Studio Code, Github.
+
 ## How to Utilize the Model? 
 1) Open the file titled "user_input_data.csv" in the /static/data directory.
 2) Input the vechicle and specifications you wish to analyze.  IMPORTANT: Be sure to input in the same format as example data.
@@ -28,16 +31,24 @@ Out team has built a machine learning model to predict used car prices.  We util
 
 Note: the initial Kaggle dataset was narrowed down to only four (4) states (IL, CA, TX, NY) to minimize the data used. This file is named cars_cleaned_sample.csv.
 
-## Results?  
+## Cleaning the Data
+![Data Cleaning & Exploration](outputs/images/cleaning_slide.png)
+
+## Data Analysis & Take-aways (sample example(s) from presentation)
+
+![Data Cleaning & Exploration](outputs/images/depreciation_slide.png)
+
+## Machine Learning Model Results?  
 
 ### Which Model is best? (Random Forest)
-![Model Comparison](outputs/images/compare_models.png)
+![Model Comparison](outputs/images/which_model_slide.png)
+![Model Comparison](outputs/images/rf_visualizations_slide.png)
 
 ### Measuring the Final Model's Predictive Capabilities 
 ![Final Random Forest Model](outputs/images/final_model_rf.png)
 
 ### Predicting User Inputted Data
-![User Input Price Prediction](outputs/images/user_data_price_prediction2.png)
+![User Input Price Prediction](outputs/images/user_predicted_slide.png)
 
 
 ## Inspiration for this project
